@@ -5,7 +5,7 @@ import { useContext } from "react";
 export default function Controller() {
   const { toggleTheme, setDarkTheme, setLightTheme } = useContext(ThemeContext);
   const { toggleLang, lang } = useContext(LangContext);
-  const Button = lang.button;
+  const Button = lang.buttons;
 
   return (
     <div className="d-flex justify-content-center gap-2">
